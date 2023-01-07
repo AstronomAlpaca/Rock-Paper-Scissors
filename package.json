@@ -1,0 +1,23 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstronomAlpaca/Rock-Paper-Scissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstronomAlpaca/Rock-Paper-Scissors/issues"
+  },
+  "homepage": "https://github.com/AstronomAlpaca/Rock-Paper-Scissors#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
