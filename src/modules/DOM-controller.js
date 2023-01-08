@@ -20,6 +20,10 @@ function createChoiceButtons() {
   paperBtn.classList.add("choiceBtn");
   scissorsBtn.classList.add("choiceBtn");
 
+  rockBtn.textContent = "Rock";
+  paperBtn.textContent = "Paper";
+  scissorsBtn.textContent = "Scissors";
+
   const btnSection = document.querySelector("#buttons-section");
 
   btnSection.appendChild(rockBtn);
@@ -29,7 +33,11 @@ function createChoiceButtons() {
   const elementNodeList = document.querySelectorAll(".choiceBtn");
   const choices = Array.from(elementNodeList);
 
-  //@todo foreach button in choices add event listener click, then select human choice for playturn
+  choices.forEach((button) => {
+    button.addEventListener("click", function (event) {
+      console.log("clicked", event.target);
+    });
+  });
 }
 
 function setScoreDisplay() {
